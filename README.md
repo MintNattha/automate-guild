@@ -9,7 +9,6 @@ run the following:
 ```json
 npm init playwright@latest 
 ```
-test
 
 ### 2. Add test command to `package.json` file
 

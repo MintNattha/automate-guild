@@ -7,8 +7,9 @@ Getting start with playwright
 
 run the following:
 ```json
-npm init playwright@latest
+npm init playwright@latest 
 ```
+test
 
 ### 2. Add test command to `package.json` file
 

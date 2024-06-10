@@ -8,6 +8,9 @@ test('logout', async ({ page, browser  }) => {
 
 	// Go to home page
 	await page.goto('/');
+
+	// Click the delete account button
+	await page.click('button#delete-account');
   
     // Verify user is navigated to sign out page successfully
     await expect(page.getByRole('link', { name: 'Signup / Login' })).toBeVisible();
